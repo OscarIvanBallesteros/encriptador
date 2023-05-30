@@ -1,0 +1,121 @@
+* {
+    background: rgb(211, 238, 248);    
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*font-family: 'bitter', Georgia, serif;*/
+}
+
+h1 {
+    text-align: center;
+    font-family: 'bitter', Georgia, Serif;
+    font-size: 1.3em;
+    margin: 20px 0 0 0;
+    text-decoration-line: overline underline;
+    text-decoration-color: #1e167a;
+    color: Orangered;
+}
+
+h5 {
+    margin-left: 25px;
+    margin-top: -7px;
+    word-spacing: 4px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+h6 {
+    margin-top: 15px;
+}
+
+.secciones {
+    display: flex;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.mensaje {
+    background-image: url("../img/encriptar.jpg"); 
+}
+
+textarea {
+    border-radius: 8px;
+    background-color:rgb(191, 233, 248);    
+    width: 300px;
+    height: 330px;
+    padding: 10px;
+    border: none;
+}
+
+.seccion1 {
+    margin: 20px;
+}
+
+.seccion2 {
+    margin: 20px;
+    
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 9.3em;
+}
+
+button {
+    border: thin solid rgb(3, 81, 109);
+    padding: 10px 15px;
+    background-color: #1e167a;
+    color: white;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.btn-encriptar:hover {
+    background-color: OrangeRed;
+    color: Lime;    
+}
+
+.btn-desencriptar {
+    margin-left: 10px;
+}
+
+.btn-desencriptar:hover {
+    background-color: Lime;
+    color: OrangeRed;    
+}
+
+.btn-copiar:hover {
+    background-color: #0078b8;
+    color: black;
+}
+
+.fa-github, .fa-linkedin, .fa-whatsapp {
+    
+    font-size: 2em;
+    color: #1e167a;  
+    margin-left: 15px;  
+}
+
+.iconos {
+    display: flex;
+    float: right;
+    margin-right:30px;
+    margin-top: -50px;
+}
+
+.fa-lock, .fa-unlock {
+    color: white;
+    background: none;
+    margin-right: 6px;
+}
+
+.footer {
+    color: white;
+    font-size: 0.75em;
+    text-align: center;
+    background-color: OrangeRed;
+    padding: 8px 0;
+    margin-top: 12px;
+}
